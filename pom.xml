@@ -12,9 +12,6 @@
         <!-- Generic settings -->
         <java.source-target.version>1.8</java.source-target.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>org.rubin55.hello.HelloController</main.class>
-        <!-- Maven plugin versions -->
-        <maven.exec.plugin.version>1.5.0</maven.exec.plugin.version>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -33,28 +30,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-
-            <!-- Execute main from maven with mvn exec:java -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>${maven.exec.plugin.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <mainClass>${main.class}</mainClass>
-                    <arguments>
-                        <argument>--loglevel=DEBUG</argument>
-                        <argument>--foreground</argument>
-                        <argument>--unsafe</argument>
-                    </arguments>
-                </configuration>
             </plugin>
         </plugins>
     </build>
