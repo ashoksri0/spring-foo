@@ -1,0 +1,14 @@
+version: 1
+
+dn: uid=freek,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: system administrator
+sn: administrator
+displayName: Freek Alleman
+uid: freek
+userPassword:: e1NTSEF9a2lQYjR0QzdRTEdwZTQ1bEd5WnV4eEpVY3c1QWEzdWVmQytNR3c9P
+ Q==
+

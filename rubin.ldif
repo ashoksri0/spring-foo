@@ -1,0 +1,13 @@
+version: 1
+
+dn: uid=rubin,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: system administrator
+sn: administrator
+displayName: Rubin Simons
+uid: rubin
+userPassword:: e1NIQX0rRGQ4a1B6OWFaOE4yOXl6REN5Umc5TFpNK289
+
