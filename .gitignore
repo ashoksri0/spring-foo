@@ -1,4 +1,5 @@
 .classpath
+.idea/
 .mvn/timing.properties
 .project
 .settings/
@@ -11,3 +12,5 @@ pom.xml.tag
 pom.xml.versionsBackup
 release.properties
 target/
+*.iml
+*.ipr
