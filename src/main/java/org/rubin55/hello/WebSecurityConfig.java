@@ -8,7 +8,6 @@ import org.springframework.security.authentication.encoding.LdapShaPasswordEncod
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.ldap.authentication.LdapAuthenticationProvider;
 import org.springframework.security.ldap.DefaultSpringSecurityContextSource;
 
 @Configuration
